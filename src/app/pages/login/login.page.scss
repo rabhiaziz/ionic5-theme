@@ -2,10 +2,9 @@
     ion-content {
         --background: linear-gradient(135deg, var(--ion-color-dark), var(--ion-color-primary));
     }
+}
 
-    ion-list {
-        &.list-md {
-            padding: 0;
-        }
-    }
+.paz {
+    position: relative;
+    z-index: 10;
 }
